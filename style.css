@@ -9,3 +9,14 @@ body {
 h1 {
   color: #502c42;
 }
+.komanda { 
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+.kortele {  
+  border: 1px solid #ccc;  
+  border-radius: 8px;  
+  padding: 16px;  
+  flex: 1;
+}
