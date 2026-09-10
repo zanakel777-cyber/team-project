@@ -37,6 +37,8 @@ function rodykRezultata() {
   rezultatas.textContent = "Taip: " + taip + " | Ne: " + ne;
 }
 
+rodykRezultata();
+
 taipMygtukas.addEventListener("click", () => {
   taip = taip + 1;
   rodykRezultata();
